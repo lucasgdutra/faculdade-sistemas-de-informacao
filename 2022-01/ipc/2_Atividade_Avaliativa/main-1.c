@@ -1,3 +1,8 @@
+/*
+Lucas Gabriel Dutra de Souza
+12121BSI226
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
