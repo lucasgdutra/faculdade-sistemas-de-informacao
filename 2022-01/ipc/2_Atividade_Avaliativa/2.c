@@ -11,7 +11,7 @@
 // Apresente também qual foi a maior entre todas as notas entre todas as provas
 // e a quantidade de alunos que obtiveram tal nota
 
-int main(int argc, char *argv[])
+int main()
 {
 
     float matriz_notas[10][3];

@@ -5,7 +5,7 @@
 // programa deve perguntar as dimensões das matrizes, verificar se são compatíveis, ler os
 // valores e apresentar os resultados
 
-int main(int argc, char *argv[])
+int main()
 {
     int linhas1, colunas1, linhas2, colunas2;
     int **matriz1, **matriz2, **matrizResultado;
@@ -102,6 +102,13 @@ int main(int argc, char *argv[])
         free(matriz2[i]);
     }
     free(matriz2);
+
+    // desalocação matriz resultado
+    for (int i = 0; i < linhas1; i++)
+    {
+        free(matrizResultado[i]);
+    }
+    free(matrizResultado);
 
     return 0;
 }

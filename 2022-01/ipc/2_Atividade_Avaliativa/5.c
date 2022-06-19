@@ -9,7 +9,7 @@
 // matriz M e armazene no vetor C, sendo o somatório de cada coluna armazenado na
 // posição respectiva do vetor C.
 
-int main(int argc, char *argv[])
+int main()
 {
 
     int linhas, colunas;

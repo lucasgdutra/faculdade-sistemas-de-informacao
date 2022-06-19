@@ -10,7 +10,7 @@
 // 1 1 1 1 * 0
 // 1 1 1 1 1 *
 // j > i
-int main(int argc, char *argv[])
+int main()
 {
     int matriz[6][6], soma = 0;
     printf("Digite os %d elementos da matriz: \n", 6 * 6);

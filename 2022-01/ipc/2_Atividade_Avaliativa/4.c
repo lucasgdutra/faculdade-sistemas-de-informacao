@@ -7,7 +7,7 @@
 // equações propostas (aij = 3i + 4j e bij = - 4i - 3j). Em seguida, o programa deve calcular
 // a matriz C e imprimir as matrizes A, B e C
 
-int main(int argc, char *argv[])
+int main()
 {
     int matriz_A[2][2], matriz_B[2][2], matriz_C[2][2];
     for (int i = 0; i < 2; i++)
