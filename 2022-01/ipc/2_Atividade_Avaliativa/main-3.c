@@ -13,7 +13,7 @@ Lucas Gabriel Dutra de Souza
 // 1 1 1 * 0 0
 // 1 1 1 1 * 0
 // 1 1 1 1 1 *
-// j > i
+// indice_coluna < indice_linha
 int main()
 {
     int matriz[6][6], soma = 0;
